@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blueviolet;
+}
+
+#buttonContainer {
+    position: fixed;
+    width: 80px;
+    bottom: 10px;
+    right: 10px;
+    text-align: right;
+  }
+
+  .Button {
+    display: block;
+    margin-bottom: 5px;
+    background-color: white;
+    border: none;
+    width: 90px;
+    height: 35px;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+
+  .ShowNotification {
+    width: 100px;
+   margin-left: 45%;
+   margin-top: 20%;
+    height: 35px;
+    background-color: #0a0b0c;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ShowNotification:hover {
+    background-color: #b300aa;
+}
